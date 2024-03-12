@@ -1,11 +1,11 @@
-import 'package:flight_booking/view/home/screens/calendar_screen.dart';
-import 'package:flight_booking/view/home/screens/home_screen.dart';
+import 'package:flight_booking/model/sample.dart';
 import 'package:flight_booking/view/splash/splash_screen.dart';
 // import 'package:flight_booking/view/ticket.dart';
 import 'package:flutter/material.dart';
 
 void main() {
   runApp(const MyApp());
+  SampleClass().makePostRequest();
 }
 
 class MyApp extends StatelessWidget {

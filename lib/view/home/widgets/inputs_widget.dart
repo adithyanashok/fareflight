@@ -2,7 +2,6 @@ import 'package:flight_booking/view/colors.dart';
 import 'package:flight_booking/view/home/screens/calendar_screen.dart';
 import 'package:flight_booking/view/home/widgets/drop_menu.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 class InputsWidget extends StatelessWidget {
   const InputsWidget({

@@ -1,4 +1,3 @@
-import 'package:easy_date_timeline/easy_date_timeline.dart';
 import 'package:flight_booking/view/colors.dart';
 import 'package:flight_booking/view/ticket/widget/app_bar_title.dart';
 import 'package:flight_booking/view/ticket/widget/date_picker_widget.dart';

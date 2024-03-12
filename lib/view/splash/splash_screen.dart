@@ -1,7 +1,6 @@
 import 'package:flight_booking/view/colors.dart';
 import 'package:flight_booking/view/home/screens/home_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class SplashScreen extends StatelessWidget {

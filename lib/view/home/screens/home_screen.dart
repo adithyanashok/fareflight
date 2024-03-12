@@ -26,6 +26,7 @@ class _HomeState extends State<Home> with TickerProviderStateMixin {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: const Color.fromRGBO(20, 61, 187, 1),
+        // Hamburger Menu button
         leading: Builder(builder: (context) {
           return IconButton(
             onPressed: () {
@@ -35,6 +36,7 @@ class _HomeState extends State<Home> with TickerProviderStateMixin {
           );
         }),
         centerTitle: true,
+        // APP bar Title
         title: const Text(
           "Let's Travel",
           style: TextStyle(
@@ -44,6 +46,7 @@ class _HomeState extends State<Home> with TickerProviderStateMixin {
             fontStyle: FontStyle.italic,
           ),
         ),
+        // Tab Bar Widget
         bottom: PreferredSize(
           preferredSize: const Size.fromHeight(40),
           child: TabBarWidget(
@@ -51,6 +54,7 @@ class _HomeState extends State<Home> with TickerProviderStateMixin {
           ),
         ),
       ),
+      // Tabs
       body: SizedBox(
         width: double.infinity,
         height: double.infinity,

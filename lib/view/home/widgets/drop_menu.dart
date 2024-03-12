@@ -1,8 +1,5 @@
-import 'package:dropdown_button2/dropdown_button2.dart';
 import 'package:flight_booking/view/colors.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 class DropMenu extends StatefulWidget {
   const DropMenu({
